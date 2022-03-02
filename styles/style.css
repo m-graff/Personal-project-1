@@ -99,7 +99,8 @@ body {
 
 .banner-bloc {
     padding: 1%;
-    background-color: rgb(235, 169, 152);
+    background-color: #334970;
+    color: white;
     border-radius: 1%;
     width: 30%;
     height: 50%;
@@ -107,4 +108,45 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.banner-contact a{
+    color: white;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Prensentation part */
+#presentation-container {
+    background-image: url(/img/presentation-back.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.presentation-main-title {
+    width: 30%;
+    margin: auto;
+    padding: 2%;
+}
+
+.presentation-bloc {
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.presentation-article {
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+    
 }
