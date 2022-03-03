@@ -121,12 +121,20 @@ a {
 
 
 /* Prensentation part */
+
+/*
 #presentation-container {
     background-image: url(/img/presentation-back.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+*/
+
+#presentation-container {
+    height: 600px;
+    background-color: #334970;
 }
 
 .presentation-main-title {
@@ -149,4 +157,39 @@ a {
     text-align: center;
     padding: 1%;
     
+}
+
+
+/* Portefolio part */
+
+.portefolio-title {
+    text-transform: uppercase;
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+}
+
+.portefolio-first {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+}
+
+.portefolio-img-bloc {
+    color: white;
+    padding: 1%;
+    background-color: #334970;
+    margin: 1%;
+}
+
+.portefolio-img {
+   padding-top: 2%;
+}
+
+.portfolio-img-pic, img {
+    width: 40%;
+    border-radius: 5%;
 }
