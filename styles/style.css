@@ -193,3 +193,22 @@ a {
     width: 40%;
     border-radius: 5%;
 }
+
+
+/* CTA part */
+#cta-container {
+    color: white;
+    height: 200px;
+    text-align: center;
+    background-color: #334970;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cta-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    height: 200px;
+}
